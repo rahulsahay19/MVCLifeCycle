@@ -170,6 +170,8 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\SampleController.cs" />
+    <Compile Include="CustomFactory\CustomFactory.cs" />
     <Compile Include="CustomHandlers\CustomHandler.cs" />
     <Compile Include="CustomModules\CustomModule.cs" />
     <Compile Include="Global.asax.cs">
@@ -239,6 +241,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Sample\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

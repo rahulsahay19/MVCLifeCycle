@@ -18,6 +18,8 @@ namespace MVC_Life_Cycle
         }
         protected void Application_Start()
         {
+            //Registering that custom controller
+            ControllerBuilder.Current.SetControllerFactory(new CustomFactory.CustomFactory());
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
