@@ -172,6 +172,7 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\SampleController.cs" />
     <Compile Include="CustomFactory\CustomFactory.cs" />
+    <Compile Include="CustomFilter\CustomFilter.cs" />
     <Compile Include="CustomHandlers\CustomHandler.cs" />
     <Compile Include="CustomModules\CustomModule.cs" />
     <Compile Include="Global.asax.cs">

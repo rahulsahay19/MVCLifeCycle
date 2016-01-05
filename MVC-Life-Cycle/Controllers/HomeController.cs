@@ -9,6 +9,12 @@ namespace MVC_Life_Cycle.Controllers
 {
     public class HomeController : Controller
     {
+        [CustomFilter.CustomFilter]
+        [CustomFilter.CustomFilter2]
+        [CustomFilter.CustomFilter3]
+        [CustomFilter.CustomFilter4]
+        [CustomFilter.CustomFilter5]
+
         public ActionResult Index()
         {
             return View();

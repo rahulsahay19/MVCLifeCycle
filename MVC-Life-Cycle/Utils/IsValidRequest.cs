@@ -8,7 +8,7 @@ namespace MVC_Life_Cycle.Utils
         //Currently just hardcoded to true.
         public override bool IsValidForRequest(ControllerContext controllerContext, MethodInfo methodInfo)
         {
-            return true;
+            return false;
         }
     }
 }
